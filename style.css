@@ -1,0 +1,446 @@
+body{
+    overflow: auto;
+    background-image: url(photo/back.jpg);
+}
+header{
+    background: linear-gradient(#b8a765, #e9c79b);
+}
+.shapka{
+    flex-direction: column;
+    column-count:2 ;
+    column-width: 100%;
+    margin-right: 5%;
+}
+.tex{
+font-size: 150%;
+width: 80%;
+margin-left: 5%;
+}
+.kar{
+    height: 50%;
+    width:100%;
+    margin-right: 12%;
+}
+
+.n{
+    list-style: none;
+    margin: -7%;
+    padding: 1.5%;
+}
+.nav{
+    font-size: 200%;
+    padding: 1%;
+    color: #293133;
+    text-decoration: none;
+}
+.nav:hover{
+    color: #ffcf48;text-decoration: none;
+}
+.li{
+    display: inline;
+    cursor: pointer;
+}
+.text{
+    flex-direction: column;
+    column-count:2 ;
+    column-width: 100%;
+    margin-top: 10%;
+    font-size: 150%;
+    text-align: justify;
+    margin-left: 10%;
+   
+}
+
+.na{
+    flex-direction: column;
+    column-count:2 ;
+    margin-left: 10%;
+}
+.podp{
+    width: 70%;
+    margin-left: 15%;
+    text-decoration:underline;
+}
+
+@media (min-width:1px) and (max-width:560px) {
+    .kar{
+        display:none;
+    }
+ }
+
+@media screen and (max-width: 1650px){ 
+    .n{
+        list-style: none;
+        margin: -5%;
+        padding: 1.5%;
+    }
+    .text{
+        flex-direction: column;
+        column-count:2 ;
+        column-width: 100%;
+        margin-top: 7%;
+        font-size: 150%;
+    }
+}
+@media screen and (max-width: 1480px){ 
+    .n{
+        list-style: none;
+        margin: -3%;
+        padding: 1.5%;
+    }
+    .text{
+        flex-direction: column;
+        column-count:2 ;
+        column-width: 100%;
+        margin-top: 5%;
+        font-size: 140%;
+    }
+}
+@media screen and (max-width: 1400px){ 
+    .n{
+        list-style: none;
+        margin: -3%;
+        padding: 1.5%;
+    }
+    .text{
+        flex-direction: column;
+        column-count:2 ;
+        column-width: 90%;
+        margin-top: 5%;
+        font-size: 120%;
+    }
+    .na{
+        flex-direction: column;
+        column-count:1 ;
+        margin-left: 25%;
+        margin-top: -5%;
+    }
+}
+@media screen and (max-width: 1300px){ 
+    .n{
+        list-style: none;
+        margin: -1%;
+        padding: 1.5%;
+    }
+    .text{
+        flex-direction: column;
+        column-count:2 ;
+        column-width: 100%;
+        margin-top: 2%;
+        font-size: 100%;
+    }
+    .kar{
+        height: 80%;
+        width:100%;
+        margin-right: 12%;
+    }
+    .na{
+        flex-direction: column;
+        column-count:1 ;
+        margin-left: 22%;
+        margin-top: -7%;
+    }
+}
+@media screen and (max-width: 1200px){ 
+    .n{
+        list-style: none;
+        margin: 2%;
+        padding: 1.5%;
+    }
+    .text{
+        flex-direction: column;
+        column-count:2 ;
+        column-width: 100%;
+        margin-top: 0%;
+        font-size: 100%;
+    }
+    .kar{
+        height: 80%;
+        width:100%;
+        margin-right: 12%;
+    }
+    .na{
+        flex-direction: column;
+        column-count:1 ;
+        margin-left: 20%;
+        margin-top: -10%;
+    }
+}
+@media screen and (max-width: 1000px){ 
+    .shapka{
+        flex-direction: column;
+        column-count:1 ;
+        column-width: 100%;
+        margin-right: 5%;
+    }
+    .n{
+        list-style: none;
+        margin: 2%;
+        padding: 1.5%;
+    }
+    .text{
+        flex-direction: column;
+        column-count:1 ;
+        column-width: 100%;
+        margin-top: 0%;
+        font-size: 150%;
+    }
+    .tex{
+        font-size: 130%;
+        width: 80%;
+        margin-left: 20%;
+        list-style: none;
+        }
+    .kar{
+        height: 50%;
+        width:80%;
+        margin-left: 20%;
+    }
+    .na{
+        flex-direction: column;
+        column-count:1 ;
+        margin-left: 15%;
+        margin-top: -10%;
+    }
+ 
+}
+@media screen and (max-width: 750px){ 
+    .shapka{
+        flex-direction: column;
+        column-count:1 ;
+        column-width: 100%;
+        margin-right: 5%;
+    }
+    .n{
+        list-style: none;
+        margin: 2%;
+        padding: 1.5%;
+    }
+    .text{
+        flex-direction: column;
+        column-count:1 ;
+        column-width: 100%;
+        margin-top: 0%;
+        font-size: 130%;
+    }
+    .tex{
+        font-size: 130%;
+        width: 80%;
+        margin-left: 20%;
+        list-style: none;
+        }
+    .kar{
+        height: 50%;
+        width:80%;
+        margin-left: 20%;
+    }
+    .na{
+        flex-direction: column;
+        column-count:1 ;
+        margin-left: 10%;
+        margin-top: -10%;
+    }
+ 
+}
+@media screen and (max-width: 693px){ 
+    .shapka{
+        flex-direction: column;
+        column-count:1 ;
+        column-width: 80%;
+        margin-right: 5%;
+    }
+    .n{
+        list-style: none;
+        margin: 2%;
+        padding: 1.5%;
+    }
+    .text{
+        flex-direction: column;
+        column-count:1 ;
+        column-width: 80%;
+        margin-top: 0%;
+        font-size: 120%;
+    }
+    .tex{
+        font-size: 110%;
+        width: 80%;
+        margin-left: 20%;
+        list-style: none;
+        }
+    .kar{
+        height: 50%;
+        width:80%;
+        margin-left: 20%;
+    }
+    .na{
+        flex-direction: column;
+        column-count:1 ;
+        margin-left: 5%;
+        margin-top: -10%;
+    }
+    .nav{
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width: 604px){ 
+    .shapka{
+        flex-direction: column;
+        column-count:1 ;
+        column-width: 80%;
+        margin-right: 5%;
+    }
+    .n{
+        list-style: none;
+        margin: 2%;
+        padding: 1.5%;
+    }
+    .text{
+        flex-direction: column;
+        column-count:1 ;
+        column-width: 80%;
+        margin-top: 0%;
+        font-size: 80%;
+    }
+    .tex{
+        font-size: 90%;
+        width: 80%;
+        margin-left: 20%;
+        list-style: none;
+        }
+    .kar{
+        height: 50%;
+        width:70%;
+        margin-left: 20%;
+    }
+    .pod{
+        flex-direction: column;
+        column-count:1 ;
+        margin-left: 10%;
+        width: 80%;
+    }
+    .nav{
+        font-size: 110%;
+    }
+    .podp{
+        font-size: 120%;
+        margin-left: 20%;
+        text-decoration:underline;
+    }
+    .na{
+        margin-top: -15%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 560){ 
+    .shapka{
+        flex-direction: column;
+        column-count:1 ;
+        column-width: 80%;
+        margin-right: 5%;
+    }
+    .n{
+        list-style: none;
+        margin: 5%;
+        padding: 1.5%;
+    }
+    .text{
+        flex-direction: column;
+        column-count:1 ;
+        column-width: 80%;
+        margin-top: 0%;
+        font-size: 80%;
+    }
+    .tex{
+        font-size: 90%;
+        width: 80%;
+        margin-left: 20%;
+        list-style: none;
+        }
+
+    .pod{
+        flex-direction: column;
+        column-count:1 ;
+        margin-left: 10%;
+        width: 80%;
+    }
+    .nav{
+        font-size: 110%;
+    }
+    .podp{
+        font-size: 120%;
+        margin-left: 20%;
+        text-decoration:underline;
+    }
+    .na{
+        margin-top: -30%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 406px){ 
+    .shapka{
+        flex-direction: column;
+        column-count:1 ;
+        column-width: 80%;
+        margin-right: 5%;
+    }
+    .n{
+        list-style: none;
+        margin: 5%;
+        padding: 1.5%;
+    }
+    .text{
+        flex-direction: column;
+        column-count:1 ;
+        column-width: 80%;
+        margin-top: 0%;
+        font-size: 50%;
+    }
+    .tex{
+        font-size: 90%;
+        width: 80%;
+        margin-left: 20%;
+        list-style: none;
+        }
+
+    .pod{
+        flex-direction: column;
+        column-count:1 ;
+        margin-left: 10%;
+        width: 80%;
+    }
+    .nav{
+        font-size: 100%;
+    }
+    .podp{
+        font-size: 110%;
+        margin-left: 20%;
+        text-decoration:underline;
+    }
+    .na{
+        margin-top: -30%;
+        margin-left: 5%;
+    }
+}
+@media screen and (min-width: 2000px){
+    .text{
+        flex-direction: column;
+        column-count:2;
+        column-width: 80%;
+        margin-top: 10%;
+        font-size: 170%;
+    }
+    .kar{
+        height: 60%;
+        width:120%;
+        margin-left: 20%;
+    }
+    .tex{
+        font-size: 220%;
+        width: 80%;
+        margin-left: 5%;
+        list-style: none;
+        }
+}
